@@ -1,0 +1,15 @@
+Problem 5 (Personal website).  If you don’t have a personal website, now might be the time to build one! Many repository hosting services, such as Github and Gitlab, allow you to build static websites (meaning: HTML + CSS + Javascript, but no backend components). Note: You don’t have to turn in this problem until the last lecture of the semester.
+How it works: you create a repository named like <username>.github.io which contains the source for your website. Then, a static site generator specified by a configuration file that you include in your repository builds your website from the source files you included. The website is then made available under the same URL as the name of your project.
+Because the process varies depending on the hosting service as well as the site generator of your choice, you should devote some time to browse and familiarize yourself with the service and the static website generator of your choice. Here are some links to help you get started.
+1. Static website generators:
+• Jekyll: https://jekyllrb.com/
+• Hugo: https://gohugo.io/
+• Hakyll: https://jaspervdj.be/hakyll/
+2. Links to static website hosting services:
+• Github pages: https://pages.github.com/
+• Gitlab pages: https://docs.gitlab.com/ee/user/project/pages/
+
+If you are brave, feel free to code up your website with HTML/CSS/Javascript without any static website generators.
+What to turn in: by the last lecture of the semester, you should build at least a minimal website (e.g. Home / About Me / Projects / Misc) with some meaningful content. For example, you should add your bio and academic interest and a showcase of projects you have done in the past or are currently undertaking. Then, you should submit onto Canvas under the Final Project tab, containing the following:
+• If you make your website public, you should submit a link to your website.
+• If you would rather not make your website publicly available at the time, your submission should contain a .zip file with your website’s source code, as well as instructions on how to “build” it locally.
