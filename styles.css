@@ -1,0 +1,106 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6; /* Increased line spacing */
+}
+
+/* Header styles */
+header {
+    background-color: #4da7d5; /* Less saturated blue */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Navigation menu styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Section styles */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex; /* Aligns children (image and text content) in a row */
+}
+
+/* Image styling */
+.profile-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 20px; /* Space between the image and text */
+}
+
+/* Text content styling */
+.text-content {
+    flex-grow: 1; /* Takes up remaining space */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4da7d5; /* Less saturated blue */
+    color: white;
+}
+
+/* Putting textbox on right of the picture */
+.content {
+    display: flex; /* Enables Flexbox */
+    align-items: center; /* Centers items vertically */
+}
+
+.profile-image {
+    width: 200px; /* Set width or adjust as necessary */
+    height: auto; /* Maintains aspect ratio */
+    margin-right: 20px; /* Adds space between the image and the text */
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom: 10px; /* Adds spacing between entries */
+}
+
+.flex-container div {
+    padding: 0 15px; /* Adds padding for better spacing */
+}
+
+.flex-container div:first-child {
+    flex-basis: 25%; /* Sets width to align university names */
+    font-weight: bold; /* Keeps the university name bold */
+}
+
+.flex-container div:nth-child(2) {
+    flex-grow: 1; /* Allows this div to take up remaining space */
+}
+
+.flex-container div:last-child {
+    flex-basis: 25%; /* Sets width for dates to align them to the end */
+}
+
+
+.text-content {
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}

@@ -3,30 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <style>
-        body { font-family: Arial, sans-serif; }
-        nav a { margin-right: 10px; }
-    </style>
+    <title>Projects - Yiran Wang</title>
+    <link rel="stylesheet" href="styles_pj.css">
 </head>
 <body>
     <header>
         <h1>Projects</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="projects.html">Projects</a>
-            <a href="misc.html">Misc</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="misc.html">Misc</a></li>
+            </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>Projects</h2>
-            <p>This page showcases some of the projects I've worked on. It includes both professional and personal projects across different domains.</p>
-        </section>
-    </main>
+    <section>
+        <div class="project">
+            <h2>Portfolio Optimization, <span>Cornell University, the United States</span></h2>
+            <ul>
+                <li>Optimized and back-tested portfolio composition using 30+ assets with weekly rebalancing.</li>
+                <li>Compared performance and stability by either minimizing risk or maximizing Sharpe ratio; used L1 and L2 regularizations.</li>
+                <li>Tested the significance of covariance shrinkage method to reduce required amount of data and improve data relevance.</li>
+            </ul>
+            <p class="dates">Jan. 2024 to May. 2024</p>
+        </div>
+        <div class="project">
+            <h2>Investment Case Study, <span>Cornell University, the United States</span></h2>
+            <ul>
+                <li>Designed asset allocation strategy for New England Healthcare's (NEH) long-term endowment fund, death-benefit fund, and cash balance fund.</li>
+                <li>Formulated investment strategy for liability hedge and growth portfolios.</li>
+            </ul>
+            <p class="dates">Jan. 2024 to Mar. 2024</p>
+        </div>
+        <div class="project">
+            <h2>Deep Branching Applications in Finance, <span>Nanyang Technological University, Singapore</span></h2>
+            <ul>
+                <li>Helped develop deep branching algorithm to solve PDEs with high-order nonlinearities numerically and tested on financial models; deep branching was shown to be 60% more accurate than other DL methods with similar run time.</li>
+            </ul>
+            <p class="dates">Aug. 2022 to May. 2023</p>
+        </div>
+        <div class="project">
+            <h2>Price Financial Product by Simulations, <span>Nanyang Technological University, Singapore</span></h2>
+            <ul>
+                <li>Priced and back-tested a real bond with callable feature with data on the underlying 3 assets using Monte Carlo simulations.</li>
+                <li>Generalized the model with varying but deterministic interest rates to improve pricing accuracy; used antithetic variate and control variate methods to perform variance reduction.</li>
+            </ul>
+            <p class="dates">Sep. 2022 to Nov. 2022</p>
+        </div>
+    </section>
     <footer>
-        <p>Copyright &copy; 2024 by w000yiran</p>
+        <p>Copyright © Your Name. All rights reserved.</p>
     </footer>
 </body>
 </html>

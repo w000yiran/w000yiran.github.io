@@ -3,30 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <style>
-        body { font-family: Arial, sans-serif; }
-        nav a { margin-right: 10px; }
-    </style>
+    <title>About Me - Yiran Wang</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>About Me</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="projects.html">Projects</a>
-            <a href="misc.html">Misc</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="misc.html">Misc</a></li>
+            </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>This page is about me. Here you can learn more about my background, interests, and professional journey.</p>
-        </section>
-    </main>
+    <section>
+        <div class="text-content">
+            <p>I am Yiran Wang, currently pursuing Master of Financial Engineering at Cornell University.</p>
+            <h2>Education</h2>
+            <div class="flex-container">
+                <div><strong>Cornell University</strong></div>
+                <div>Master of Engineering in Financial Engineering</div>
+                <div>Dec. 2024 (Expected)</div>
+            </div>
+            <div class="flex-container">
+		<div><strong>Nanyang Technological University</strong></div>
+                <div>Bachelor of Mathematics, Cum Laude</div>
+                <div>Jun. 2023</div>
+            </div>
+            <h2>Selected Coursework</h2>
+            <p>Time Series, Machine Learning, Simulations, Deep Learning, Reinforcement Learning, Data Visualization and Data Mining, Quantitative Trading Strategies, Numerical Methods, Portfolio Optimization, Derivatives, Fixed Income, Stochastic Calculus, Financial Risk Management</p>
+            <h2>Skills & Certificates</h2>
+            <div class="flex-container">
+                <div><strong>Technical:</strong></div>
+                <div>Python, R, SQL, Excel</div>
+            </div>
+            <div class="flex-container">
+                <div><strong>Certificate:</strong></div>
+                <div>SOA Program - Passed all ASA exams and Validation by Educational Experience</div>
+            </div>
+        </div>
+    </section>
     <footer>
-        <p>Copyright &copy; 2024 by w000yiran</p>
+        <p>Copyright © Yiran Wang. All rights reserved.</p>
     </footer>
 </body>
 </html>
